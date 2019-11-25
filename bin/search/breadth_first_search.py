@@ -33,6 +33,5 @@ def search(name):
                 searched.append(person)
     return "No one have a friend who sells mango!"
 
-
-search('you')
-
+if __name__ == '__main__':
+    search('you')
